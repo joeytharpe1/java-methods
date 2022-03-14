@@ -9,6 +9,6 @@ public class Main {
     }
 
     public static void greetUser(String firstName, String lastName){
-        System.out.println("hey " + firstName + " " + lastName);
+        System.out.println("hey " + firstName + " " + lastName + "!");
     }
 }
