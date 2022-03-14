@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        greetUser("jo", "tee");
+        String message = greetUser("moshy", "mosh");
     }
 
-    public static void greetUser(String firstName, String lastName){
-        System.out.println("hey " + firstName + " " + lastName + "!");
+    public static String greetUser(String firstName, String lastName){
+        return "hey " + firstName + " " + lastName + "!";
     }
 }
